@@ -4,6 +4,7 @@ const guessEl = document.getElementById("user-input");
 const btnGuess = document.getElementById("btn-guess");
 const resultEl = document.getElementById("result");
 const guessesEl = document.getElementById("guesses");
+const btnRest = document.getElementById("reset");
 
 // Global variable
 let guesses;
@@ -11,7 +12,8 @@ let randomNumber;
 
 // Functions
 
-const init = () => {//this fun. is having all initial settings 
+const init = () => {
+  //this fun. is having all initial settings
   guesses = 0;
   randomNumber = getRandomNumber();
 };
@@ -47,3 +49,13 @@ btnGuess.addEventListener("click", () => {
 
 // initial setup
 init();
+
+// reset
+const reset = () => {
+  guessEl.value = "";
+  resultEl.innerText = "";
+  guessesEl.innerText = "";
+  init();
+};
+
+btnRest.addEventListener("click", reset);
