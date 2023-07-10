@@ -14,28 +14,29 @@
 
 ## Links
 
-- Solution URL: [GitHub Repository]()
-- Live Demo: [Live Demo URL]()
+- Solution URL: [GitHub Repository](https://github.com/aruntutter/guess-my-number)
+- Live Demo: [Live Demo URL](https://aruntutter.github.io/guess-my-number/)
 
 ## Description
 
-Provide a brief description of your project, highlighting its main purpose and features.
+Guess My Number is a simple number guessing game where the player tries to guess a randomly generated number within a given range.
 
 ## Screenshot
 
-![Alt Text](<>)
+![Guess My Number Screenshot](screenshot.png)
 
 ## Demo
 
-Include a link to a live demo of your project, if available. You can use services like GitHub Pages, Netlify, or Heroku to host your project.
+You can try the live demo of Guess My Number [here](https://jolly-bubblegum-1b406f.netlify.app). Have fun guessing the number!
 
 ## Features
 
-List the main features and functionalities of your project. You can use bullet points or a numbered list.
+- Randomly generates a number between 1 and 100 for the player to guess.
+- Provides feedback to the player if their guess is too high or too low.
+- Keeps track of the number of guesses made by the player.
+- Allows the player to reset the game and start a new round.
 
 ## Technologies Used
-
-Mention the technologies, tools, and frameworks used in your project. For example:
 
 - HTML
 - CSS
@@ -44,12 +45,24 @@ Mention the technologies, tools, and frameworks used in your project. For exampl
 
 ## Usage
 
-Explain how to use your project. You can provide code examples, screenshots, or even GIFs to demonstrate its usage.
+1. Open the game in a web browser.
+2. The game will generate a random number between 1 and 100.
+3. Enter your guess in the input field and click the "Guess" button.
+4. The game will provide feedback on whether your guess is too high or too low.
+5. Continue guessing until you guess the correct number.
+6. The game will display the number of guesses made.
+7. Click the "Reset" button to start a new round of the game.
 
 ## What I Learned
 
-Share what you learned while working on this project. You can mention any new concepts, techniques, or insights gained through the development process. This section can be valuable for personal reflection and to showcase your growth as a developer.
+While working on this project, I learned how to:
+
+- Generate random numbers in JavaScript using `Math.random()`.
+- Manipulate the DOM to display messages and update the game state.
+- Handle user input and perform validation.
+- Use event listeners to listen for button clicks.
+- Reset the game state for a new round.
 
 ## Contributing
 
-Indicate if you're open to contributions and how others can contribute to your project. You can mention things like submitting bug reports, suggesting new features, or submitting pull requests.
+Contributions to Guess My Number are welcome! If you have suggestions for new features, find any issues, or want to improve the code, feel free to submit a pull request.
