@@ -87,6 +87,10 @@ justify-content: center;
 
 .result-container{
   min-height: 5rem;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
+  line-height: 1.5rem;
 }
 
 /* Media Query */
