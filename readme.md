@@ -23,7 +23,7 @@ Guess My Number is a simple number guessing game where the player tries to guess
 
 ## Screenshot
 
-![Guess My Number Screenshot](screenshot.png)
+![Guess My Number Screenshot](./assets/images/guess-my-number-screenshot.png)
 
 ## Demo
 
